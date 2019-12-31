@@ -1,0 +1,45 @@
+{
+  "name": "sgame",
+  "version": "0.0.1",
+  "description": "A minimalist (web) game framework powered by Solandra",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesporter/sgame.git"
+  },
+  "keywords": [
+    "game",
+    "gamedev",
+    "minimalist",
+    "algorithmic",
+    "art",
+    "react",
+    "graphics",
+    "2D",
+    "Canvas"
+  ],
+  "author": "James Porter <james@amimetic.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesporter/sgame/issues"
+  },
+  "homepage": "https://github.com/jamesporter/sgame#readme",
+  "dependencies": {
+    "solandra": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
