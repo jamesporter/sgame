@@ -10,6 +10,10 @@ Explicitly separates state updates (handled by the update function) and renderin
 
 # Example
 
+See [running demo](https://sgame.netlify.com/).
+
+Example code:
+
 ```typescript
 import React from "react";
 import Game from "sgame";
